@@ -5,10 +5,6 @@
 // $password = "";
 
 
-$host = "sql306.infinityfree.com";
-$dbname = "if0_41643909_boutique";
-$username = "if0_41643909";
-$password = "mohsine123SEG";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
